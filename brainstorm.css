@@ -1,0 +1,29 @@
+.container {
+  border: 5px solid papayawhip;
+}
+
+.container span {
+  padding: 15px;
+  display: inline-block;
+}
+
+.float.right {
+
+  margin-top: 4000px;
+}
+
+.background-papayawhip {
+  background-color: papayawhip;
+}
+
+.background-green {
+  background-color: springgreen;
+}
+
+div.box.left {
+  color: blue;
+ }
+
+ div {
+  color: purple;
+ }
