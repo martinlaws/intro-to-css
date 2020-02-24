@@ -9,13 +9,13 @@
 .container {
   border: 5px solid slategray;
   margin-top: 100px;
-  height: 1000px;
+  height: 120vh;
   position: relative;
 }
 
 div.relative {
   position: relative;
-  top: 100px;
+  top: 200px;
   left: 100px;
 }
 
@@ -46,4 +46,8 @@ div.relative:hover {
   width: 200px;
   height: 200px;
   margin: 20px;
+}
+
+.inline {
+  display: inline-block;
 }

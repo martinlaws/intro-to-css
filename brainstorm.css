@@ -1,4 +1,13 @@
-.container {
+.square-div {
+  display: inline-block;
+  height: 200px;
+  width: 49%;
+  background-color: papayawhip;
+  padding: 5px;
+  border: 10px solid burlywood;
+}
+
+/* .container {
   border: 5px solid papayawhip;
 }
 
@@ -26,4 +35,4 @@ div.box.left {
 
  div {
   color: purple;
- }
+ } */

@@ -57,7 +57,7 @@ DEMO
 
 - we are not looking at css frameworks
   Bootstrap (CSS/UI grid frameworks in general) comes later. It makes more sense to focus on vanilla CSS.
-- SCSS (also known as Sass) is a better way to write CSS, and there are other alternatives to it. You'll be learning SCSS in Week 4 to implement your Midterm (requirement).
+- SCSS (also known as Sass) is another way to write CSS, and there are other alternatives to it. You'll be learning SCSS in Week 4 to implement your Midterm (requirement).
 - we are not focusing on html
   - do want to look at semantic html
 
@@ -528,7 +528,7 @@ before flexbox.
 
 ![CSS GRID](https://raw.githubusercontent.com/tborsa/LighthouseLabs/master/lectures/Week3/Day1/Lecture/assets/grid.png)
 
-It is even newer than Flexbox, but isn't well-adopted yet. It is something you can learn on your own (and it is recommended that you do so).
+It is even newer than Flexbox, and widely supported. It is something you can learn on your own (and it is recommended that you do so).
 
 https://caniuse.com/#search=css%20grid
 
