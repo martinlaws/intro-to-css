@@ -4,6 +4,7 @@
   margin: 20px;
   font-weight: 700;
   color: slateblue;
+  box-sizing: border-box;
 }
 
 .ocean {
@@ -29,12 +30,12 @@
   float: right;
 }
 
-.inblock {
-  display: inline-block;
-}
-
 .clear {
   clear: both;
+}
+
+.inblock {
+  display: inline-block;
 }
 
 div.box.left {

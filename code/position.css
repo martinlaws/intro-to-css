@@ -48,6 +48,6 @@ div.relative:hover {
   margin: 20px;
 }
 
-.inline {
-  display: inline-block;
+.first {
+  color: pink;
 }
