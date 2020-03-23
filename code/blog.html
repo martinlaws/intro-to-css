@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Emile's blog</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/latest/normalize.css"
+    />
+    <style>
+      article > p > a {
+        color: orange;
+      }
+      article a {
+        text-decoration: none;
+        color: red;
+      }
+
+      h1 {
+        font-weight: lighter;
+        color: #333;
+        background-color: #f2f2f2;
+      }
+
+      article {
+        background: #e3e3e3;
+        border: 1px solid #c2c2c2;
+        padding: 8px;
+        margin: 10px;
+      }
+
+      article.featured {
+        border-color: #00cafe;
+      }
+
+      .new {
+        background: gold;
+        border-color: black;
+      }
+
+      .article-image {
+        margin: 10px;
+        float: left;
+      }
+      .article-image.right {
+        float: right;
+      }
+
+      article h3 {
+        clear: both;
+      }
+
+      nav {
+        height: 50px;
+        background: #00cafe;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+
+      nav > * {
+        margin-left: 25px;
+      }
+
+      nav .login {
+        margin-left: auto;
+        margin-right: 25px;
+      }
+
+      body {
+        padding-top: 50px;
+      }
+
+      .container {
+        background: gold;
+        padding: 10px;
+      }
+
+      .contained {
+        background: red;
+        height: 200px;
+        width: 200px;
+        border: 10px solid black;
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div><a href="/">Home</a></div>
+      <div><a href="/about">About</a></div>
+      <div class="login"><a href="/login">Log In</a></div>
+    </nav>
+    <h1>Emile's blog</h1>
+    <div class="container">
+      <div class="contained"></div>
+      <div class="contained"></div>
+    </div>
+    <article id="cats" class="featured new">
+      <h2>Cats</h2>
+      <p>
+        <img class="article-image" src="http://placekitten.com/200/200" />
+        <img class="article-image right" src="http://placekitten.com/200/300" />
+        Hello this is an article about cats
+        <a href="https://cats.com">View cats</a>
+      </p>
+      <p>
+        Amet rerum mollitia architecto repudiandae. Velit delectus et sit eum
+        aperiam fugiat sequi. Porro voluptatem rerum cum. Aut architecto
+        possimus et natus quas voluptates quis. Nesciunt sequi voluptatibus eos
+        qui et eos.
+      </p>
+      <p>
+        Sapiente ratione atque in inventore illo dolor enim. Eius sit quia qui
+        sit et deserunt sint. Qui quia non provident repellendus cumque omnis
+        vero. Atque blanditiis omnis nobis ullam est dolore eligendi.
+      </p>
+      <p>
+        Qui temporibus ipsam unde consequatur aspernatur excepturi. Esse qui
+        voluptas enim laboriosam. Eos facere ut repellendus ut enim tenetur
+        illo. Temporibus quo cumque laudantium sint earum deleniti.
+      </p>
+      <h3>Why cats are cool</h3>
+      <p>
+        Nemo soluta maxime recusandae iure magnam et accusantium. Magnam
+        explicabo quis libero. Numquam temporibus culpa ducimus blanditiis
+        dolorem corporis eveniet quaerat. Et et ullam commodi quis id
+        exercitationem veritatis. Iste voluptas excepturi ea et. Quia distinctio
+        pariatur cumque quidem a voluptatem.
+      </p>
+      <p>
+        Rerum laborum adipisci qui voluptas quasi eum. Quod sed dolor quas
+        blanditiis quo iure sint rerum. Recusandae repudiandae est iste nulla
+        itaque alias.
+      </p>
+    </article>
+    <article class="new">
+      Hello <em>this</em> is some <strong>more</strong> text.
+      <a href="https://dogs.com">I like dogs too</a>
+    </article>
+    <article>
+      This is an old article
+    </article>
+  </body>
+</html>
